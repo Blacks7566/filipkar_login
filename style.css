@@ -2,13 +2,24 @@
     margin: 0;
     padding: 0;
 }
+.lognav{
+    /* border: 1px solid black; */
 
-.container {
+    margin-top: 3em;
+    display: flex;
+    /* text-decoration-line: underline overline;
+    text-decoration-thickness: from-font; */
+    font-size: 1.2rem;
+    color:black
+   
+
+}
+
+.contain {
 
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
 }
 
 .login {
@@ -113,4 +124,8 @@ label {
 
 .box1 img {
     margin: 13em 0em 0em 1.5em;
+}
+
+.dropdown a{
+
 }
